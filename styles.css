@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #252a2f;
+    color: #ffffff;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.header h1 {
+    font-size: 2rem;
+}
+
+.signup-btn {
+    padding: 0.5rem 1rem;
+    background-color: #6b47dc;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.buy-btn {
+    padding: 0.5rem 1rem;
+    background-color: #6b47dc;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.phones {
+   
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+/* Search Section */
+.search-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    padding: 2rem;
+    text-align: center;
+}
+
+#search-input {
+    padding: 0.8rem;
+    width: 40%;
+    margin-right: 0.5rem;
+    background-color: transparent;
+    border: 1px solid rgb(138, 138, 138);
+    border-radius: 5px;
+}
+
+#search-btn {
+    padding: 0.8rem 3rem;
+    background-color: #6b47dc;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: .6em;
+}
+
+/* Phone List */
+.phone-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.phone-card {
+    background-color: #394a5b;
+    padding: 1rem;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.phone-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.image1 ,.image3{
+    height:34em;
+}
+
+.phone-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.phone-card p {
+    font-size: 0.875rem;
+    color: #ccc;
+    margin-bottom: 1rem;
+}
+
+.show-details-btn {
+    padding: 0.5rem 1rem;
+    background-color: #6b47dc;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.show-all-btn {
+    margin-top: 2rem;
+    padding: 0.5rem 2rem;
+    background-color: #6b47dc;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* modal */
+
+/* Modal styling */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1;
+    padding-top: 60px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.modal_img{
+    border:2px solid #d4cdcd;
+    border-radius: 7px;
+}
+.modal-content {
+    text-align: center;
+    background-color: #4f4c4c;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #a7a4a4;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 8px;
+}
+
+.close-btn {
+    color: #954646;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+    color: #600a0a;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.footer_section{
+    background-color: #2b3540;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    color: black;
+    padding: 8em 0;
+
+}
+
+.social_media{
+    margin-top: 2.5em;
+}
